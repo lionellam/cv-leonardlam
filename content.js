@@ -4,9 +4,8 @@ const RESUME_DATA = {
     jobTitle: "Violinist & Music Educator",
     postnominals: "B. Mus (USM), LTCL, ATCL",
     contacts: [
-      { label: "+00 0000 0000", link: "tel:+000000000" },
-      { label: "email@example.com", link: "mailto:email@example.com" },
-      { label: "linkedin.com/in/username", link: "https://linkedin.com/in/username" }
+      { label: "lamsongkuan@gmail.com", link: "mailto:lamsongkuan@gmail.com" },
+      { label: "linkedin.com/in/leonard-lam-song-kuan", link: "https://www.linkedin.com/in/leonard-lam-song-kuan/" }
     ]
   },
   summary: [
@@ -111,13 +110,13 @@ const RESUME_DATA = {
       name: "LTCL — Licentiate of Trinity College London<br><small style='font-weight:400;font-size:12px;'>Violin Recital — Pass</small>",
       issuer: "Trinity College London",
       id: "2013",
-      badge: "img/badge-ltcl.png"
+      badge: "img/badge-trinity.png"
     },
     {
       name: "ATCL — Associate of Trinity College London<br><small style='font-weight:400;font-size:12px;'>Violin Recital — Distinction</small>",
       issuer: "Trinity College London",
       id: "2011",
-      badge: "img/badge-atcl.png"
+      badge: "img/badge-trinity.png"
     }
   ],
   awards: [
