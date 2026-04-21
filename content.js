@@ -1,8 +1,8 @@
 const RESUME_DATA = {
   profile: {
-    name: "Full Name",
-    jobTitle: "Job Title",
-    postnominals: "Cert1, Cert2",
+    name: "Leonard Lam Song Kuan",
+    jobTitle: "Violinist & Music Educator",
+    postnominals: "B. Mus (USM), LTCL, ATCL",
     contacts: [
       { label: "+00 0000 0000", link: "tel:+000000000" },
       { label: "email@example.com", link: "mailto:email@example.com" },
@@ -10,61 +10,155 @@ const RESUME_DATA = {
     ]
   },
   summary: [
-    "Summary paragraph 1 — introduce the person, their background and years of experience.",
-    "Summary paragraph 2 — describe their area of specialisation or unique value proposition.",
-    "Summary paragraph 3 — describe their working style, approach, or professional philosophy."
+    "Leonard Lam Song Kuan is a versatile Malaysian violinist and educator, renowned for his artistry and leadership both on stage and in the classroom. Beginning his musical journey at age six, he joined the Sarawak State Symphony Orchestra in 2002, marking an early start to a distinguished performing career. A graduate of Universiti Sains Malaysia with further diplomas from Trinity College London, Leonard has performed widely as principal violinist and concertmaster with Musica Sinfonietta and PenangPac's Actors Studio Chorus.",
+    "He is the co-founder and leader of the Quattro Voce String Quartet, with award-winning performances at the Euroasia Strings Competition, and an active contributor to Penang's music scene as a teacher and ensemble coach.",
+    "Whether on stage or mentoring young musicians, Leonard embodies dedication, versatility, and a deep passion for sharing music."
   ],
   experience: [
     {
-      employer: "Employer Name, Location",
-      role: "Job Title / Role",
+      employer: "Performing & Ensembles",
+      role: "1st Violinist, Concertmaster & Ensemble Leader",
       projects: [
         {
-          title: "Project or Engagement Name",
-          period: "Month Year – Month Year<br>Client or Organisation",
+          title: "Quattro Voce String Quartet",
+          period: "2019 – Present<br>Penang, Malaysia",
           bullets: [
-            "Key responsibility or achievement — describe what was done and its impact.",
-            "Key responsibility or achievement — describe what was done and its impact.",
-            "Key responsibility or achievement — describe what was done and its impact."
+            "Co-founded the Quattro Voce String Quartet and serves as 1st Violinist and Quartet Leader.",
+            "Awarded Gold Trophy at the Euroasia Strings Competition 2019 (Ensemble Category, Penang Regional Preliminary).",
+            "Previously led Sonorous String Quartet to Silver Trophy at the Euroasia Strings Competition 2017."
+          ]
+        },
+        {
+          title: "The Steel Guitars Entertainment Concept Music Band",
+          period: "Jan 2024 – May 2025<br>Penang, Malaysia",
+          bullets: [
+            "Performed as violinist with the Steel Guitars Entertainment Concept Music Band."
+          ]
+        },
+        {
+          title: "Musica Sinfonietta",
+          period: "2010 – Present<br>Penang, Malaysia",
+          bullets: [
+            "Serves as 1st Violinist, Concertmaster, and Orchestra Tutor.",
+            "Active participant in concerts and music camps organized by the orchestra."
+          ]
+        },
+        {
+          title: "Actors Studio Chorus (PenangPac)",
+          period: "2013 – 2022<br>Penang, Malaysia",
+          bullets: [
+            "Served as 1st Violinist and Concertmaster for numerous acclaimed productions and concerts.",
+            "Collaborated with Wicked Music People and Penang Island Chorus on Handel's oratorio Messiah (September 2024)."
+          ]
+        }
+      ]
+    },
+    {
+      employer: "Music Education",
+      role: "Violin Instructor & Orchestra Tutor",
+      projects: [
+        {
+          title: "La Viva Musica",
+          period: "2017 – Present<br>Penang, Malaysia",
+          bullets: [
+            "Teaches violin to students of varying levels and backgrounds."
+          ]
+        },
+        {
+          title: "Living Keys Studio",
+          period: "2015 – Present<br>Penang, Malaysia",
+          bullets: [
+            "Provides violin instruction to individual and group students."
+          ]
+        },
+        {
+          title: "Han Chiang High School",
+          period: "2014 – Present<br>Penang, Malaysia",
+          bullets: [
+            "Serves as Orchestra Tutor, Performer, and Violin Instructor.",
+            "Supports the school orchestra programme through coaching and ensemble direction."
+          ]
+        },
+        {
+          title: "SMK Bukit Jambul",
+          period: "2013 – Present<br>Penang, Malaysia",
+          bullets: [
+            "Provides violin instruction to school students."
+          ]
+        },
+        {
+          title: "Melody Music Consultant",
+          period: "2011 – 2023<br>Penang, Malaysia",
+          bullets: [
+            "Taught violin to students across a range of ages and skill levels over more than a decade."
           ]
         }
       ]
     }
   ],
   earlierCareer: [
-    { employer: "Previous Employer Name", desc: "Role Title — Brief description of work done (Year – Year)" }
+    { employer: "Methodist Girl School", desc: "Orchestra Tutor, Performer & Violin Instructor (2011 – 2015)" },
+    { employer: "Yamaha Music School, Bukit Jambul Branch", desc: "Violin Instructor (2010 – 2013)" },
+    { employer: "Classic Music Conservatory", desc: "Violin Instructor (2007 – 2008)" },
+    { employer: "Sarawak State Symphony Orchestra (SONS)", desc: "1st Violinist — performed at official state functions and private events (2002 – 2006)" }
   ],
   skills: [
-    { category: "Skill Category 1", tags: ["Skill A", "Skill B", "Skill C"] },
-    { category: "Skill Category 2", tags: ["Skill D", "Skill E", "Skill F"] },
-    { category: "Skill Category 3", tags: ["Skill G", "Skill H"] },
-    { category: "Skill Category 4", tags: ["Tool A", "Tool B"] }
+    { category: "Languages", tags: ["English", "Malay"] },
+    { category: "Musical Technical Skills", tags: ["Leading & Directing Orchestras", "Masterclass & Workshop Facilitation", "Ensemble Leadership & Section Coaching", "Repertoire Planning & Program Curation", "Music Arrangement & Adaptation", "Designing, Conducting & Assessing Mock Music Examinations"] }
   ],
   certifications: [
     {
-      name: "Certification Name",
-      issuer: "Issuing Organisation",
-      id: "000000",
-      badge: "img/badge-placeholder.png"
-    }
-  ],
-  publications: [
+      name: "LTCL — Licentiate of Trinity College London<br><small style='font-weight:400;font-size:12px;'>Violin Recital — Pass</small>",
+      issuer: "Trinity College London",
+      id: "2013",
+      badge: "img/badge-ltcl.png"
+    },
     {
-      title: "Publication or Article Title",
-      date: "Month Year",
-      link: "https://example.com/article",
-      bullets: [
-        "Brief description of what the article covers — key argument or topic.",
-        "Key takeaway or finding from the publication."
-      ]
+      name: "ATCL — Associate of Trinity College London<br><small style='font-weight:400;font-size:12px;'>Violin Recital — Distinction</small>",
+      issuer: "Trinity College London",
+      id: "2011",
+      badge: "img/badge-atcl.png"
     }
   ],
+  awards: [
+    {
+      title: "Gold Trophy",
+      detail: "Euroasia Strings Competition 2019<br>Ensemble Category, Penang Regional Preliminary",
+      desc: "Awarded as 1st Violinist and Quartet Leader of Quattro Voce String Quartet."
+    },
+    {
+      title: "Silver Trophy",
+      detail: "Euroasia Strings Competition 2017<br>Ensemble Category, Penang Regional Preliminary",
+      desc: "Awarded as 1st Violinist and Quartet Leader of Sonorous String Quartet."
+    },
+    {
+      title: "Founding Member & Leader",
+      detail: "Quattro Voce String Quartet",
+      desc: "Recognised for outstanding contributions to Malaysia's chamber music scene."
+    },
+    {
+      title: "Principal Violinist & Concertmaster",
+      detail: "Musica Sinfonietta & Actors Studio Chorus",
+      desc: "Leadership roles in numerous acclaimed productions and concerts."
+    },
+    {
+      title: "Selected Solo & Collaborative Performances",
+      detail: "Handel's Messiah, September 2024",
+      desc: "Performed with Wicked Music People and Penang Island Chorus."
+    },
+    {
+      title: "Active Contributor",
+      detail: "Malaysia's Music Education Community",
+      desc: "Ongoing contributions through workshops and orchestral coaching."
+    }
+  ],
+  publications: [],
   education: [
     {
-      period: "Year – Year",
-      degree: "Degree Name",
-      school: "University or Institution Name",
-      logo: "img/logo-placeholder.png"
+      period: "2006 – 2009",
+      degree: "Bachelor of Music (Performance and Pedagogy) — Honours",
+      school: "Universiti Sains Malaysia (USM)",
+      logo: "img/logo-usm.png"
     }
   ]
 };
