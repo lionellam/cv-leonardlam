@@ -157,7 +157,7 @@ const RESUME_DATA = {
       period: "2006 – 2009",
       degree: "Bachelor of Music (Performance and Pedagogy) — Honours",
       school: "Universiti Sains Malaysia (USM)",
-      logo: "img/logo-usm.png"
+      logo: "img/usm-logo.png"
     }
   ]
 };
