@@ -1,7 +1,7 @@
 const RESUME_DATA = {
   profile: {
     name: "Leonard Lam Song Kuan",
-    jobTitle: "Violinist & Music Educator",
+    jobTitle: "Professional Violinist and Conductor",
     postnominals: "B. Mus (USM), LTCL, ATCL",
     contacts: [
       { label: "lamsongkuan@gmail.com", link: "mailto:lamsongkuan@gmail.com" },
