@@ -151,6 +151,22 @@ const RESUME_DATA = {
       desc: "Ongoing contributions through workshops and orchestral coaching."
     }
   ],
+  affiliations: [
+    {
+      name: "Musica Sinfonietta",
+      image: "img/affiliation-musica-sinfonietta.jpg",
+      description: "Musica Sinfonietta is an orchestra run as a registered society by an all voluntary entity of musicians.",
+      link: "https://www.facebook.com/musicasinfoniettapenang",
+      linkLabel: "Facebook.com/musicasinfoniettapenang"
+    },
+    {
+      name: "Quattro Voce String Quartet",
+      image: "img/affiliation-quattro-voce.jpg",
+      description: "We are a passionate group of musicians specialising in playing for events and functions, especially weddings and birthdays too.",
+      link: "https://www.facebook.com/QuattroVoce",
+      linkLabel: "Facebook.com/QuattroVoce"
+    }
+  ],
   publications: [],
   education: [
     {

@@ -80,6 +80,14 @@ h1 { font-size: clamp(1.3rem, 4vw, 2.5rem); font-weight: 700; color: var(--navy)
 [data-theme="dark"] .edu-logo { background: rgba(255, 255, 255, 0.92); }
 [data-theme="dark"] .cert-badge { background: rgba(255, 255, 255, 0.92); border-radius: 8px; padding: 8px; }
 
+/* Affiliations */
+.affiliation-item { display: grid; grid-template-columns: 45% 1fr; gap: 0 48px; padding: 32px 0; border-top: 1px solid var(--border-light); align-items: start; }
+.affiliation-img { width: 100%; height: 260px; object-fit: cover; border-radius: 6px; }
+.affiliation-name { font-size: 1.15rem; font-weight: 700; color: var(--gold); margin-bottom: 16px; }
+.affiliation-desc { font-size: 15.5px; color: var(--text-mid); margin-bottom: 12px; text-align: justify; }
+.affiliation-link { font-size: 15px; color: var(--text-mid); }
+.affiliation-link a { color: var(--navy-mid); text-decoration: underline; }
+
 footer { padding: 40px 0; display: flex; justify-content: space-between; border-top: 2px solid var(--border); margin-top: 20px; }
 footer p, footer a { font-size: 14px; font-weight: 500; color: var(--text-faint); text-decoration: none; }
 
@@ -120,5 +128,7 @@ footer p, footer a { font-size: 14px; font-weight: 500; color: var(--text-faint)
   .site-nav ul { display: none; } .hamburger { display: flex; } .site-nav .nav-inner { justify-content: flex-end; }
   header, .section-header { scroll-margin-top: 80px; }
   .back-to-top { display: flex; }
+  .affiliation-item { grid-template-columns: 1fr; gap: 20px; }
+  .affiliation-img { height: 200px; }
 }
 @media (max-width: 480px) { .cert-list { grid-template-columns: 1fr; } }

@@ -22,6 +22,7 @@
         <li><a href="#skills-header">Skills</a></li>
         <li><a href="#certifications-header">Diplomas</a></li>
         <li><a href="#education-header">Education</a></li>
+        <li><a href="#affiliations-header">Affiliations</a></li>
         <li><a href="#awards-header">Awards</a></li>
       </ul>
       <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
@@ -48,6 +49,7 @@
       <a href="#skills-header" onclick="this.parentElement.classList.remove('open')">Skills</a>
       <a href="#certifications-header" onclick="this.parentElement.classList.remove('open')">Diplomas</a>
       <a href="#education-header" onclick="this.parentElement.classList.remove('open')">Education</a>
+      <a href="#affiliations-header" onclick="this.parentElement.classList.remove('open')">Affiliations</a>
       <a href="#awards-header" onclick="this.parentElement.classList.remove('open')">Awards</a>
     </div>
   </nav>
@@ -103,6 +105,13 @@
         <h2 class="section-title">Education</h2><div class="section-rule"></div>
       </div>
       <div id="edu-container"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-header" id="affiliations-header">
+        <h2 class="section-title">Affiliations</h2><div class="section-rule"></div>
+      </div>
+      <div id="affiliations-container"></div>
     </section>
 
     <section class="section" style="border-bottom: none;">
@@ -186,6 +195,18 @@
           <div class="edu-year">${e.period}</div>
           <div><div class="edu-degree">${e.degree}</div><div class="edu-school">${e.school}</div></div>
           <img class="edu-logo" src="${e.logo}" alt="${e.school} logo">
+        </div>
+      `).join('');
+
+      // Affiliations
+      document.getElementById('affiliations-container').innerHTML = d.affiliations.map(a => `
+        <div class="affiliation-item">
+          <img class="affiliation-img" src="${a.image}" alt="${a.name}">
+          <div>
+            <div class="affiliation-name">${a.name}</div>
+            <p class="affiliation-desc">${a.description}</p>
+            <p class="affiliation-link">For more information, please visit: <a href="${a.link}" target="_blank">${a.linkLabel}</a></p>
+          </div>
         </div>
       `).join('');
 
