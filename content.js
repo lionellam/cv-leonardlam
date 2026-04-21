@@ -107,13 +107,13 @@ const RESUME_DATA = {
   ],
   certifications: [
     {
-      name: "LTCL — Licentiate of Trinity College London<br><small style='font-weight:400;font-size:12px;'>Violin Recital — Pass</small>",
+      name: "LTCL — Licentiate of Trinity College London",
       issuer: "Trinity College London",
       id: "2013",
       badge: "img/badge-trinity.png"
     },
     {
-      name: "ATCL — Associate of Trinity College London<br><small style='font-weight:400;font-size:12px;'>Violin Recital — Distinction</small>",
+      name: "ATCL — Associate of Trinity College London",
       issuer: "Trinity College London",
       id: "2011",
       badge: "img/badge-trinity.png"
